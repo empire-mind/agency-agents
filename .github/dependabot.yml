@@ -1,0 +1,9 @@
+# Dependabot keeps this repo's dependencies up to date.
+# Added as part of the org 100/100 hygiene wave (worker6).
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/.github/workflows"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
